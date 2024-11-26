@@ -132,7 +132,6 @@ nav ul li a:hover {
 
 .leftEducation, .rightEducation, .leftExperiences, .rightExperiences {
     width: 50%;
-    height: auto;
 }
 
 .descriptifEducation div, .descriptifExperiences div, .descriptifInformations div {
@@ -314,11 +313,6 @@ footer {
 @media screen and (max-width:640px) {
     .colresponsive{
         width: 100%;
-        height: 400px;
-    }
-
-    #heightLeft #heightRight{
-        height: 500px;
     }
 
     #education, #experiences {
@@ -327,6 +321,14 @@ footer {
 
     .firstresponsive{
         order: 1;
+    }
+
+    .leftEducation, .rightExperiences{
+        height: auto;
+    }
+
+    .rightEducation, .leftExperiences{
+        height: 400px;
     }
 }
 
