@@ -37,6 +37,10 @@ h3{
     font-size: 28px;
 }
 
+p{
+    padding: 20px;
+}
+
 header {
     padding: 10px;
     position: fixed;
